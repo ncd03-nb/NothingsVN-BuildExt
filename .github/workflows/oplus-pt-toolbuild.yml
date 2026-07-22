@@ -6,16 +6,6 @@ on:
       input_url:
         description: 'URL of the BASE ROM for the target device'
         required: true
-      portrom_url:
-        description: 'URL of the PORT ROM; leave empty for base-ROM-only mode'
-        required: false
-      builder_name:
-        description: 'Builder name'
-        required: false
-      builder_id:
-        description: 'Builder ID'
-        required: false
-
 jobs:
   Build:
     runs-on: ubuntu-latest
