@@ -15,6 +15,16 @@ on:
       builder_id:
         description: 'Builder ID'
         required: false
+      install_mods:
+        description: 'Apply custom modifications'
+        required: false
+        type: boolean
+        default: true
+      install_toolbox:
+        description: 'Install KaoriOS Toolbox'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   Build:
@@ -96,6 +106,8 @@ jobs:
         env:
           INPUT_URL: ${{ inputs.input_url }}
           PORTROM_URL: ${{ inputs.portrom_url }}
+          INSTALL_MODS: ${{ inputs.install_mods }}
+          INSTALL_TOOLBOX: ${{ inputs.install_toolbox }}
         run: |
           set -e
           set -o pipefail
