@@ -29,6 +29,8 @@ jobs:
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+      INSTALL_MODS: ${{ inputs.install_mods }}
+      INSTALL_TOOLBOX: ${{ inputs.install_toolbox }}
     steps:
       - name: Clean unused files and applications
         run: |
@@ -94,8 +96,6 @@ jobs:
         working-directory: toolbuild
         env:
           INPUT_URL: ${{ inputs.input_url }}
-          INSTALL_MODS: ${{ inputs.install_mods }}
-          INSTALL_TOOLBOX: ${{ inputs.install_toolbox }}
         run: |
           set -e
           set -o pipefail
