@@ -6,14 +6,14 @@
     "toolbox_data": {
         "devices_profile": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/device.json",
         "app_needeedspoof": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/app.json",
-        "trickystore_neededset": "",
+        "trickystore_neededset": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/trickystore.json",
         "keybox": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/keybox.xml"
     },
     "toolbox_changelog": {
-        "manager_changelog": "",
+        "manager_changelog": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/ntmanager/manager_changelog.json",
         "sourcecode_changelog": {
-            "xiaomi" : "",
-            "oplus": ""
+            "xiaomi" : "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/ntmanager/xiaomi_changelog.json",
+            "oplus": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/ntmanager/oplus_changelog.json"
         }
     }
 }
