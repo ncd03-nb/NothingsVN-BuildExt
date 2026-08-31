@@ -1,0 +1,10 @@
+{
+    "app2spoof": {
+        "com.android.vending" : {
+            "mode": "LEAF"
+        },
+        "com.google.android.gms": {
+            "mode": "LEAF"
+        }
+    }
+}
