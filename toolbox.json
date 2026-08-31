@@ -1,0 +1,19 @@
+{
+    "toolbox_info": {
+        "version": "V1.0",
+        "updated_date": "2026/08/31"
+    },
+    "toolbox_data": {
+        "devices_profile": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/device.json",
+        "app_needeedspoof": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/app.json",
+        "trickystore_neededset": "",
+        "keybox": "https://raw.githubusercontent.com/tiencv2006/NothingsVN-BuildExt/refs/heads/main/keybox.xml"
+    },
+    "toolbox_changelog": {
+        "manager_changelog": "",
+        "sourcecode_changelog": {
+            "xiaomi" : "",
+            "oplus": ""
+        }
+    }
+}
